@@ -1,0 +1,66 @@
+{
+  "name": "chartist-plugin-legend",
+  "version": "0.5.0",
+  "author": {
+    "name": "Kees Kluskens",
+    "email": "kees@codeyellow.nl"
+  },
+  "description": "Legend plugin for Chartist.js.",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeYellowBV/chartist-plugin-legend.git"
+  },
+  "main": "chartist-plugin-legend.js",
+  "files": [
+    "chartist-plugin-legend.js"
+  ],
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chartist": "^0.9.8",
+    "coveralls": "^2.11.12",
+    "karma": "^1.1.2",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-coverage": "^1.1.1",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-mocha": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "mocha": "^2.5.3",
+    "phantomjs-prebuilt": "^2.1.8"
+  },
+  "scripts": {
+    "test": "karma start",
+    "test-chrome": "karma start --browsers=Chrome",
+    "test-firefox": "karma start --browsers=Firefox"
+  },
+  "gitHead": "b0de8b9e5aa9df05b1c1f8028bba0a4f7cf05395",
+  "bugs": {
+    "url": "https://github.com/CodeYellowBV/chartist-plugin-legend/issues"
+  },
+  "homepage": "https://github.com/CodeYellowBV/chartist-plugin-legend#readme",
+  "_id": "chartist-plugin-legend@0.5.0",
+  "_shasum": "a99457dd1523632df0e475ca8bcbc3f0aeed2e36",
+  "_from": "chartist-plugin-legend@latest",
+  "_npmVersion": "3.9.5",
+  "_nodeVersion": "6.2.2",
+  "_npmUser": {
+    "name": "codeyellow",
+    "email": "contact@codeyellow.nl"
+  },
+  "dist": {
+    "shasum": "a99457dd1523632df0e475ca8bcbc3f0aeed2e36",
+    "tarball": "https://registry.npmjs.org/chartist-plugin-legend/-/chartist-plugin-legend-0.5.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "codeyellow",
+      "email": "contact@codeyellow.nl"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/chartist-plugin-legend-0.5.0.tgz_1473324181187_0.8494436261244118"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/chartist-plugin-legend/-/chartist-plugin-legend-0.5.0.tgz"
+}

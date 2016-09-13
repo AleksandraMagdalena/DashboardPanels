@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Charts">
+
+	<title>	Dashboard Panels </title>
+
+<script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+<link href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css" rel="stylesheet" type="text/css" />
+<script src="https://gionkunz.github.io/chartist-js/scripts/all.js"></script>
+
+<link rel="stylesheet" type="text/css" href="normalize.css">
+<!-- <link rel="stylesheet" href="styles/bootstrap/css/bootstrap.min.css"> -->
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cousine:700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700" rel="stylesheet">
+
+</head>
+
+<body>
+
+<main>
+	
+	<section class="revenue">
+		<div class="frame">
+
+			<div class="title">
+				<div class="cornerIcon"> $ </div>
+				<h1> Revenue by Solution </h1>	
+			</div>
+
+			<div class="chartContent">
+				
+					<div class="leftSide">
+						<div class="ct-chart" id="myLineChart">
+							<span class="chartTitle"> Revenue per week </span>
+						</div>
+					</div>
+				
+					<div class="rightSide">
+						<div class="value"> 32,556 </div>
+						<div class="description"> Revenue Stream </div>
+						<div class="button"> Revenue Analysis </div>
+					</div>
+
+			</div>
+		</div>
+		
+	</section>
+
+	<section class="installations">
+		<div class="frame">
+
+			<div class="title">
+				<div class="cornerIcon">
+					<div class="myArrow">
+						<div class="rectangle"></div>
+						<div class="triangle">	</div>
+					</div>
+				</div>
+				<h1> Installations </h1>
+			</div>
+
+			<div class="chartContent">
+				
+					<div class="leftSide">
+						<div class="ct-chart" id="myBarChart">
+								<span class="chartTitle"> Installations </span>
+						</div>
+					</div>
+
+					<div class="rightSide">
+						<div class="value"> 136 </div>
+						<div class="description"> Installations </div>
+						<div class="button"> View Installations </div>
+					</div>
+
+			</div>
+		</div>
+		
+	</section>
+
+
+</main>
+
+
+<!-- <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script> -->
+<script src="chartist-plugin-legend/chartist-plugin-legend.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+
+
+</body>
+</html>
